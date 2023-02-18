@@ -1,6 +1,6 @@
 {
   "basic_info": {
-    "name": "James Ian Solima",
+    "name": "James Ian Ragasa Solima",
     "titles": [
       "Application Developer"
     ],
@@ -14,6 +14,11 @@
         "name": "twitter",
         "url": "https://twitter.com/jamesCodes808",
         "class": "fab fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/james-ian-ragasa-solima/",
+        "class": "fab fa-linkedin"
       }
     ],
     "image": "myProfile.jpg"
