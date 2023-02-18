@@ -38,7 +38,10 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #e9d5a1;
+	background-color: #A9D9D0;
+	background-image: url("../public/images/portfolio/placeholder/willian-justen-de-vasconcellos-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -54,10 +57,36 @@ header .nav {
 }
 
 .github-corner:hover .octo-arm {
-	animation:octocat-wave 560ms ease-in-out
+	animation: octocat-wave 560ms ease-in-out
 }
 
-@keyframes octocat-wave {0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}
+@keyframes octocat-wave {
+
+	0%,
+	100% {
+		transform: rotate(0)
+	}
+
+	20%,
+	60% {
+		transform: rotate(-25deg)
+	}
+
+	40%,
+	80% {
+		transform: rotate(10deg)
+	}
+}
+
+@media (max-width:500px) {
+	.github-corner:hover .octo-arm {
+		animation: none
+	}
+
+	.github-corner .octo-arm {
+		animation: octocat-wave 560ms ease-in-out
+	}
+}
 
 .language-icon {
 	font-size: 50px;
@@ -231,7 +260,7 @@ header h1 {
 }
 
 #resume {
-	background: #efe1bd;
+	background: #038C7F;
 }
 
 .experience-icon {
@@ -245,7 +274,7 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #AE944F !important;
+	background-color: hsl(44, 38%, 50%) !important;
 	color: white;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -353,7 +382,7 @@ header h1 {
 }
 
 #portfolio {
-	background: #efe1bd;
+	background: #A9D9D0;
 	padding-bottom: 5%;
 }
 
@@ -383,13 +412,14 @@ header h1 {
 	.portfolio .closeButtonResponsive {
 		display: block;
 	}
+
 	.portfolio .portfolio-item {
 		margin-bottom: 30px;
 	}
 }
 
 #skills {
-	background: #1F1F1F;
+	background: #0D0D0D;
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;
