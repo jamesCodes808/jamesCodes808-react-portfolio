@@ -79,7 +79,7 @@ class Experience extends Component {
             <VerticalTimelineElement
               iconStyle={{
                 background: "#FFCE8A",
-                color: "#FFF",
+                color: "#fff",
                 textAlign: "center",
               }}
               icon={
