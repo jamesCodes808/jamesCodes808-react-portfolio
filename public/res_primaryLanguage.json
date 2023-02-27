@@ -11,6 +11,40 @@
   },
   "projects": [
     {
+      "title": "City Explorer",
+      "startDate": "2023",
+      "description": "Search up a city and find out fun facts about that city such as its location, all cities around the world that match that city's name, forecast and movies with that city's title in its name. Integrates Weatherbit, LocationIQ, TMDB APIs.",
+      "images": [
+        "images/portfolio/city-explorer/city-explorer-main.png",
+        "images/portfolio/city-explorer/city-explorer-search.png",
+        "images/portfolio/city-explorer/city-explorer-weather.png",
+        "images/portfolio/city-explorer/city-explorer-movies.png"
+      ],
+      "url": "https://james-city-explorer.netlify.app/",
+      "technologies": [
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        },
+        {
+          "class": "devicon-bootstrap-plain",
+          "name": "React-Bootstrap"
+        },
+        {
+          "class": "devicon-fastapi-plain",
+          "name": "Thunderclient"
+        }
+      ]
+    },
+    {
       "title": "Salmon Cookies",
       "startDate": "2023",
       "description": "A fun project using a combination of technologies to display tables representing total amount of sales for a quirky cookie shop in different locations.",

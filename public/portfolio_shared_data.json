@@ -51,6 +51,21 @@
         "level": "85"
       },
       {
+        "name": "Express",
+        "class": "devicon-express-original",
+        "level": "85"
+      },
+      {
+        "name": "Node.js",
+        "class": "devicon-nodejs-plain",
+        "level": "85"
+      },
+      {
+        "name": "Thunderclient",
+        "class": "devicon-fastapi-plain",
+        "level": "85"
+      },
+      {
         "name": "git",
         "class": "devicon-git-plain",
         "level": "80"
