@@ -11,6 +11,55 @@
   },
   "projects": [
     {
+      "title": "Storybook-Ai",
+      "startDate": "2023",
+      "description": "Team project using React, Chakra UI, Node.js, Express and MongoDB to create an application that implements AI through API calls to generate a customized short story with illustrations that relate to the story on each page. Stories are generated with a few key prompts from user. Stories are only accessible to users who are authorized and logged in through Auth0.",
+      "images": [
+        "images/portfolio/storybook-ai/storybookai-landing.png",
+        "images/portfolio/storybook-ai/storybookai-bookshelf.png",
+        "images/portfolio/storybook-ai/storybook-ai-book.png"
+      ],
+      "url": "https://storybookai.netlify.app/",
+      "technologies": [
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js"
+        },
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
+        },
+        {
+          "class": "devicon-fastapi-plain",
+          "name": "ChakraUI"
+        },
+        {
+          "class": "fab fa-github-alt",
+          "name": "Github API"
+        },
+        {
+          "class": "far fa-shield",
+          "name": "Auth0"
+        },
+        {
+          "class": "devicon-npm-original-wordmark",
+          "name": "Framer"
+        },
+        {
+          "class": "devicon-npm-original-wordmark",
+          "name": "Other Packages"
+        }
+      ]
+    },
+    {
       "title": "City Explorer",
       "startDate": "2023",
       "description": "Search up a city and find out fun facts about that city such as its location, all cities around the world that match that city's name, forecast and movies with that city's title in its name. Integrates Weatherbit, LocationIQ, TMDB APIs.",
